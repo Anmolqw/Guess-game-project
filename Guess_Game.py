@@ -1,3 +1,5 @@
+#Guess Game
+
 from random import randint
 while input("DO YOU WANT TO PLAY VERY INTERESTING GUESS GAME!!(YES/NO)").strip().lower() == 'yes':
     com_guess = randint(1,50)
